@@ -109,7 +109,9 @@ Counties classified into 4 quadrants based on ACHP share gain potential and comp
 
 | File | Description |
 |---|---|
-| `data_prep_eda.ipynb` | Data cleaning, merging, EDA — CMS Landscape + enrollment files |
+| `data_prep_eda_v1.ipynb` | Initial data cleaning, merging CMS Landscape + enrollment files, EDA |
+| `data_prep_eda_v2.ipynb` | Updated pipeline with additional feature engineering and validation |
+| `eda_deep_dive.ipynb` | Extended EDA — county-level patterns, visualizations, market share analysis |
 | `hypothesis_testing.ipynb` | Statistical tests: H1a/b/c, H2, H3 |
 | `triage_framework.ipynb` | Expand vs Defend county classification model |
 | `ACHP_Analytics_Project.pptx` | Full consulting deck presented to ACHP leadership |
@@ -129,7 +131,10 @@ This project demonstrates: real-world consulting workflow, CMS government data a
 
 ---
 
-## 🔗 Related Analysis Links
+## 🔗 Analysis Notebooks
 
-- [Data Preparation & EDA](https://colab.research.google.com/drive/11Yg0rKcoB4LcRZDr5ftqAp1s_vBCTJ1W?usp=sharing)
-- [EDA Notebook](https://colab.research.google.com/drive/1eOOoszz1NnOLV8tOj4cvHdBFVuy0t6t5?usp=sharing)
+| Notebook | Description | Link |
+|---|---|---|
+| Data Preparation & EDA (v1) | Initial data cleaning, merging CMS files, exploratory analysis | [Open in Colab](https://colab.research.google.com/drive/11Yg0rKcoB4LcRZDr5ftqAp1s_vBCTJ1W?usp=sharing) |
+| Data Preparation & EDA (v2) | Updated pipeline with additional feature engineering | [Open in Colab](https://colab.research.google.com/drive/1VUx9hjGHfSwvhQhFC-fSlj26_bNwZisI?usp=sharing) |
+| EDA Deep Dive | Extended exploratory analysis — county-level patterns and visualizations | [Open in Colab](https://colab.research.google.com/drive/1eOOoszz1NnOLV8tOj4cvHdBFVuy0t6t5?usp=sharing) |
